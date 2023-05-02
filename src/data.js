@@ -1,38 +1,42 @@
+import { FaGithub, FaDribbble, FaLinkedin, FaTwitter, FaWallet, FaTree, FaSocks } from 'react-icons/fa';
+
 import project1 from './images/portfolio/p1.jpg';
 import project2 from './images/portfolio/p2.jpg';
 import project3 from './images/portfolio/p3.jpg';
 import project4 from './images/portfolio/p4.jpg';
 
-export const pageLinks = [
-  { id: 1, href: '#education', text: 'home' },
-  { id: 2, href: '#skills', text: 'about' },
-  { id: 3, href: '#experience', text: 'services' },
-  { id: 4, href: '#portfolio', text: 'tours' },
-  { id: 4, href: '#contact', text: 'contact' },
-  { id: 4, href: '#edu', text: 'education' },
+export const links = [
+  { id: 1, url: '#education', text: 'home' },
+  { id: 2, url: '#skills', text: 'about' },
+  { id: 3, url: '#experience', text: 'services' },
+  { id: 4, url: '#portfolio', text: 'tours' },
+  { id: 5, url: '#contact', text: 'contact' },
+  { id: 6, url: '#education', text: 'education' },
 ];
-export const socialLinks = [
-  { id: 1, href: 'https://www.twitter.com', icon: 'fa-brands fa-github' },
-  { id: 2, href: 'https://www.linkedin.com/in/lindsey-howard', icon: 'fa-brands fa-linkedin' },
-  { id: 3, href: 'https://www.twitter.com', icon: 'fab fa-dribbble' },
+
+export const social = [
+  { id: 1, url: 'https://www.github.com/codelikeagirl29', icon: <FaGithub /> },
+  { id: 2, url: 'https://www.linkedin.com/in/lindsey-howard', icon: <FaLinkedin /> },
+  { id: 3, url: 'https://www.dribbble.com/codelikeagirl91', icon: <FaDribbble /> },
+  { id: 4, url: 'https://www.twitter.com/dev_lindseyk', icon: <FaTwitter /> },
 ];
 
 export const experience = [
   {
     id: 1,
-    icon: 'fas fa-wallet fa-fw',
+    icon: <FaWallet />,
     title: 'saving money',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
   },
   {
     id: 2,
-    icon: 'fas fa-tree fa-fw',
+    icon: <FaTree />,
     title: 'endless hiking',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
   },
   {
     id: 3,
-    icon: 'fas fa-socks fa-fw',
+    icon: <FaSocks />,
     title: 'amazing comfort',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
   },
@@ -44,30 +48,27 @@ export const projects = [
     image: project1,
     title: 'Tibet Adventure',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    liveLink: 'china',
+    liveLink: 'https://github.com',
   },
   {
     id: 2,
     image: project2,
-    date: 'october 1th, 2020',
     title: 'Tibet Adventure',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    liveLink: 'china',
+    liveLink: 'https://github.com',
   },
   {
     id: 3,
     image: project3,
-    date: 'september 15th, 2020',
     title: 'Tibet Adventure',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    liveLink: 'china',
+    liveLink: 'https://github.com',
   },
   {
     id: 4,
     image: project4,
-    date: 'december 5th, 2019',
     title: 'Tibet Adventure',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    liveLink: 'china',
+    liveLink: 'https://github.com',
   },
 ];

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Portfolio() {
+const Portfolio = ({ image, title, info, liveLink }) => {
   return (
     <div>
       <section id="portfolio" className="portfolio">
@@ -15,51 +15,52 @@ export default function Portfolio() {
                   <div className="col-sm-4">
                     <div className="item">
                       <img
-                        src="assets/images/portfolio/p1.jpg"
-                        alt="portfolio image"
+                        src={image}
+                        alt={title}
                       />
                       <div className="isotope-overlay">
-                        <a href="#"> ui/ux design </a>
+                        <a href="#"> {liveLink} </a>
+                        <p>{info}</p>
                       </div>
                     </div>
                     <div className="item">
                       <img
-                        src="assets/images/portfolio/p2.jpg"
-                        alt="portfolio image"
+                        src={image}
+                        alt={title}
                       />
                       <div className="isotope-overlay">
-                        <a href="#"> ui/ux design </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="item">
-                      <img
-                        src="assets/images/portfolio/p3.jpg"
-                        alt="portfolio image"
-                      />
-                      <div className="isotope-overlay">
-                        <a href="#"> web design </a>
+                        <a href="#"> {liveLink} </a>
                       </div>
                     </div>
                   </div>
                   <div className="col-sm-4">
                     <div className="item">
                       <img
-                        src="assets/images/portfolio/p4.jpg"
-                        alt="portfolio image"
+                        src={image}
+                        alt={title}
                       />
                       <div className="isotope-overlay">
-                        <a href="#"> web development </a>
+                        <a href="#"> {liveLink} </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="item">
+                      <img
+                         src={image}
+                         alt={title}
+                      />
+                      <div className="isotope-overlay">
+                        <a href="#"> {liveLink} </a>
                       </div>
                     </div>
                     <div className="item">
                       <img
-                        src="assets/images/portfolio/p5.jpg"
-                        alt="portfolio image"
+                          src={image}
+                          alt={title}
                       />
                       <div className="isotope-overlay">
-                        <a href="#"> web development </a>
+                        <a href="#"> {liveLink} </a>
                       </div>
                     </div>
                   </div>
@@ -72,3 +73,5 @@ export default function Portfolio() {
     </div>
   );
 }
+
+export default Portfolio;
