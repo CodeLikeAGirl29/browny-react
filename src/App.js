@@ -11,10 +11,19 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+// import the css files
+// import './styles/animate.css';
+// import './styles/bootstrap.min.css';
+// import './styles/font-awesome.min.css';
+// import './styles/bootsnav.css';
+// import './styles/flaticon.css';
+// import './styles/owl.carousel.min.css';
+// import './styles/owl.theme.default.min.css';
+// import './styles/responsive.css';
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Hero />
       <About />
@@ -25,7 +34,7 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
