@@ -388,8 +388,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 /*.timeline-horizontal-border*/
 /*.education-horizontal-timeline*/
 /*------------------------------------- 6. Skills --------------------------------------*/
-.skills {
-}
+/* .skills {
+} */
 .skill-content{
    padding: 50px 0 80px;
 }
@@ -777,7 +777,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 .contact-add-head p {
     font-size: 16px;
-    text-transform: capitalize;
     color: #636a82;
     font-weight: 300;
     margin-top: 6px;
@@ -801,8 +800,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 /*.contact-add-info */
 /*hm-foot-icon*/
-.hm-foot-icon {
-}
 .hm-foot-icon ul li{
    float:left;
 }
@@ -821,9 +818,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 /*hm-foot-icon*/
 .hm-footer-copyright p{
     color: #888ea5;
-    text-transform: capitalize;
     padding: 38px 0;
 }
+
 .hm-footer-copyright p a {
    color: #888ea5;
 }
@@ -874,4 +871,3 @@ span.single-timeline-horizontal.spacial-horizontal-line {
        bottom:7px;
    }
 }
-/*========================Thank you=================
