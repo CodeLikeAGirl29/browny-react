@@ -1,4 +1,5 @@
 import './index.css';
+import '../styles/style.css';
 // import components
 import Header from './components/Header';
 import Hero from './components/Hero';
