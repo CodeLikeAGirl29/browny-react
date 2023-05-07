@@ -90,7 +90,7 @@ input,
 textarea,
 button {
 	box-shadow: none;
-	outline: 0 !important;
+	outline: 0 ;
 }
 button {
 	background: transparent;
@@ -759,7 +759,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 		margin-top: 21px;
 	}
 	nav.navbar.bootsnav .navbar-brand {
-		float: left !important;
+		float: left ;
 	}
 	nav.navbar.bootsnav ul.nav > li > a {
 		padding: 15px 0px;

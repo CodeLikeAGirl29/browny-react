@@ -59,7 +59,7 @@ button:focus {
 	border: 1px solid #fff;
 	border-radius: 0px;
 	box-shadow: none;
-	outline: 0 !important;
+	outline: 0 ;
 	background: #fff;
 	color: #636a82;
 	resize: none;
@@ -85,7 +85,7 @@ button:focus {
 .contact-form .single-contact-btn .contact-btn,
 .contact-form .single-contact-btn .contact-btn:focus {
 	margin-top: 0px;
-	outline: 0 !important;
+	outline: 0 ;
 	border: 0;
 	color: #fff;
 	border-radius: 0px;
