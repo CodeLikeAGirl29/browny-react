@@ -1,9 +1,11 @@
 import React from "react";
+import ProgressBar from 'progressBar.js';
 
 export default function Skills() {
   return (
     <div>
-      <section id="skills" className="skills">
+      <ProgressBar />
+      {/* <section id="skills" className="skills">
         <div className="skill-content">
           <div className="section-heading text-center">
             <h2>skills</h2>
@@ -141,7 +143,7 @@ export default function Skills() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
