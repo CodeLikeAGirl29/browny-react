@@ -1,7 +1,9 @@
 import React from 'react';
+import { ProgressBar } from "react-bootstrap"; 
+import "bootstrap/dist/css/bootstrap.min.css";
 import './Skills.css'
 
-function ProgressBar() {
+function Bar() {
   return (
     <>
       <div id="skills" className="skills">
@@ -99,4 +101,4 @@ function ProgressBar() {
   )
 }
 
-export default ProgressBar;
+export default Bar;

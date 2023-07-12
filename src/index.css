@@ -20,7 +20,7 @@ font-family: 'Poppins', sans-serif;
 --------------------------------------*/
 
 :root {
-  --primary-color: #d92cf9;
+	--primary-color: #d92cf9;
 }
 
 * {
@@ -90,7 +90,7 @@ input,
 textarea,
 button {
 	box-shadow: none;
-	outline: 0 ;
+	outline: 0;
 }
 button {
 	background: transparent;
@@ -122,7 +122,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	background: url(./src/images/about/hero-alt.png) no-repeat;
+	background: url(./images/about/hero-alt.png) no-repeat;
 	background-size: cover;
 	background-position: center;
 	height: 890px;
@@ -759,7 +759,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 		margin-top: 21px;
 	}
 	nav.navbar.bootsnav .navbar-brand {
-		float: left ;
+		float: left;
 	}
 	nav.navbar.bootsnav ul.nav > li > a {
 		padding: 15px 0px;
