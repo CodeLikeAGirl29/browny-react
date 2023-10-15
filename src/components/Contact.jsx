@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import{ useState } from 'react'
 import axios from 'axios'
 import '../styles/Contact.css'
 
@@ -32,7 +32,7 @@ export default function Contact() {
       })
     }
   }
-  
+
   const handleOnChange = e => {
     e.persist()
     setInputs(prev => ({

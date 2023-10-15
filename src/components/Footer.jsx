@@ -1,4 +1,4 @@
-import React from 'react'
+
 import ScrollButton from './ScrollButton';
 import { Content } from './Styles';
 
@@ -12,8 +12,8 @@ export default function Footer() {
         </div>
       </div>
       <div id="scroll-Top">
-      <Content />
-      <ScrollButton />
+        <Content />
+        <ScrollButton />
       </div>
     </footer></div>
   )

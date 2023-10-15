@@ -6,7 +6,7 @@ font-family: 'Poppins', sans-serif;
 1.  General css (Reset code)
 2.  Header
 3.  Welcome-hero
-4.  About me 
+4.  About me
 5.  Education
 6.  Skill
 7.  Experience
@@ -24,15 +24,13 @@ font-family: 'Poppins', sans-serif;
 }
 
 * {
-	padding: 0;
-	margin: 0;
-}
-* {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
+  padding: 0;
+	margin: 0;
 }
 body {
 	font-family: "Poppins", sans-serif;
@@ -245,11 +243,7 @@ body {
 .about-list-icon ul {
 	display: flex;
 }
-.about-list-icon ul li a {
-	padding-right: 22px;
-	cursor: pointer;
-	color: #fff;
-}
+
 .about-list-icon ul li a {
 	cursor: pointer;
 	color: #fff;
@@ -261,6 +255,7 @@ body {
 	height: 30px;
 	line-height: 28px;
 	text-align: center;
+  	padding-right: 22px;
 }
 .about-list-icon ul li a i {
 	margin-left: 6px;
@@ -315,8 +310,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 /*.timeline-horizontal-border*/
 /*.education-horizontal-timeline*/
 /*------------------------------------- 6. Skills --------------------------------------*/
-.skills {
-}
+/* .skills {
+} */
 .skill-content {
 	padding: 50px 0 80px;
 }
@@ -673,14 +668,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 #scroll-Top .return-to-top i {
 	position: relative;
 	bottom: 0;
-}
-#scroll-Top .return-to-top i {
-	position: relative;
 	animation-name: example;
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
 	animation-duration: 1s;
 }
+
 @keyframes example {
 	0% {
 		bottom: 0px;
@@ -834,15 +827,15 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 		margin: 30px auto;
 	}
 } /*max-width:767px*/
-
+/*
 @media screen and (max-width: 660px) {
-} /*max-width:660px*/
+} /*max-width:660px
 
 @media screen and (max-width: 640px) {
-} /*max-width:640px*/
+} /*max-width:640px
 
 @media screen and (max-width: 580px) {
-} /*max-width:580px*/
+} /*max-width:580px */
 
 @media screen and (max-width: 540px) {
 	.subscribe-title h2 {
@@ -850,14 +843,16 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 	}
 } /*max-width:540px*/
 
+/*
 @media screen and (max-width: 480px) {
-} /*max-width:480px*/
+} /*max-width:480px
 
 @media screen and (max-width: 440px) {
-} /*max-width:400px*/
+} /*max-width:400px
 
 @media screen and (max-width: 350px) {
-} /*max-width:350px*/
+} /*max-width:350px
 
 @media screen and (max-width: 320px) {
-} /*max-width:320px*/
+} /*max-width:320px
+*/

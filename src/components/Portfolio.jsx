@@ -1,4 +1,6 @@
-import React from "react";
+import {
+  Link,
+} from 'react-router-dom';
 
 const Portfolio = ({ image, title, info, liveLink }) => {
   return (
@@ -19,7 +21,7 @@ const Portfolio = ({ image, title, info, liveLink }) => {
                         alt={title}
                       />
                       <div className="isotope-overlay">
-                        <a href="#"> {liveLink} </a>
+                        <Link to='{liveLink}' />
                         <p>{info}</p>
                       </div>
                     </div>
@@ -29,7 +31,7 @@ const Portfolio = ({ image, title, info, liveLink }) => {
                         alt={title}
                       />
                       <div className="isotope-overlay">
-                        <a href="#"> {liveLink} </a>
+                        <Link to='{liveLink}'/>
                       </div>
                     </div>
                   </div>
@@ -40,27 +42,27 @@ const Portfolio = ({ image, title, info, liveLink }) => {
                         alt={title}
                       />
                       <div className="isotope-overlay">
-                        <a href="#"> {liveLink} </a>
+                          <Link to='{liveLink}'/>
                       </div>
                     </div>
                   </div>
                   <div className="col-sm-4">
                     <div className="item">
                       <img
-                         src={image}
-                         alt={title}
+                        src={image}
+                        alt={title}
                       />
                       <div className="isotope-overlay">
-                        <a href="#"> {liveLink} </a>
+                         <Link to='{liveLink}'/>
                       </div>
                     </div>
                     <div className="item">
                       <img
-                          src={image}
-                          alt={title}
+                        src={image}
+                        alt={title}
                       />
                       <div className="isotope-overlay">
-                        <a href="#"> {liveLink} </a>
+                         <Link to='{liveLink}'/>
                       </div>
                     </div>
                   </div>
